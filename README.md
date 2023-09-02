@@ -1,1 +1,11 @@
 # Segmentation-TOOL
+
+In this work, the potential applications of Artificial Intelligence (AI) algorithms in the field of medical imaging are explored, specifically within the context of Mid-Middle Lateral Oblique Screen-Film Mammography (MMLOSFM). The researchers acknowledge the significant potential of AI for various applications in the medical imaging lifecycle, encompassing image creation, diagnosis, classification, and the prediction of specific pathologies.
+
+One of the key challenges highlighted in this study is the limited availability of extensive and representative training data that includes expert labeling (manual labeling). Current supervised AI methods require a data preprocessing stage to label data in a way that allows algorithms to be trained, validated, and tested with an optimal approximation to the ground truth.
+
+In this context, the authors of this work have developed and implemented a graphical interface that enables the semi-automatic labeling of Regions of Interest (ROIs) in MMLOSFM images. This is achieved through preprocessing techniques such as segmentation and image enhancement. Segmentation involves identifying relevant areas in the image (the regions of interest) and appropriately labeling them. Image enhancement may entail correcting issues such as contrast, brightness, or noise to facilitate the identification of structures of interest.
+
+The authors have assessed the efficiency of their approach using four structural comparison indexes and have demonstrated that their MMLOSFM segmentation and labeling method is efficient, consistently yielding high similarity scores (91.6% compared to the ground truth provided by the MIAS database).
+
+In summary, this work focuses on the creation of a tool that efficiently labels Regions of Interest in MMLOSFM mammography images using image processing techniques and evaluates its accuracy using structural comparison indexes. This is valuable for the development of AI algorithms in the field of breast disease detection and diagnosis from medical images. Furthermore, it is worth noting that this work was published at the 2023 Global Medical Engineering Physics Exchanges/Pacific Health Care Engineering (GMEPE/PAHCE) conference." 
